@@ -1,0 +1,14 @@
+
+public class Testes {
+
+	public static void main(String[] args) {
+
+		int Inteira = 7;
+		
+		if (Inteira == 5) {System.out.println("Weird");
+		} else {System.out.println("Not Weird");
+
+		}
+		}
+	
+}	

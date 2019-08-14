@@ -1,0 +1,24 @@
+import javax.swing.JOptionPane;
+
+public class Testes {
+
+	public static void main(String[] args) {
+
+ int Valor=0;
+
+ Integer.parseInt(JOptionPane.showInputDialog("Insira um Valor"));
+ 
+ if (Valor >= 10) {System.out.println("Este número é uma dezena!");
+	 
+ } else {System.out.println("Este número é uma unidade!");
+ 
+ }
+ 
+	
+	
+	
+		
+		
+	}
+	
+}
