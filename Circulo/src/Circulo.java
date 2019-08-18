@@ -16,7 +16,6 @@ public class Circulo {
 
 	// Metodos especificos
 
-	
 	public void menuCirculo() {
 		System.out.println("--------------------------------");
 		System.out.println("1 - Cadastrar circulo");
@@ -26,12 +25,25 @@ public class Circulo {
 		System.out.println("5 - Sair");
 		System.out.println("--------------------------------");
 		String option = JOptionPane.showInputDialog("Escolha uma das opções:");
-		if (option == "1") {
+		switch (option) {
+		case "1":
 			cadastraCirculo();
-			
+			break;
+		case "2":
+			calculaDiametro();
+			break;
+		case "3":
+			calculaPerimetro();
+			break;
+		case "4":
+			calculaArea();
+			break;
+		case "5":
+			System.exit(0);
 		}
+
 	}
-	
+
 	public void cadastraCirculo() {
 		this.raio = Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do raio do circulo!"));
 		System.out.println("Valor atual do circulo: " + this.getRaio());
@@ -41,7 +53,8 @@ public class Circulo {
 		if (this.getRaio() > 0) {
 			System.out.println("O diametro do circulo é: " + this.getRaio() * 2);
 		} else {
-			System.out.println("É Necessario realizar o cadastro do circulo antes de calcular seu diametro.");
+			// System.out.println("É Necessario realizar o cadastro do circulo antes de
+			// calcular seu diametro.");
 		}
 	}
 

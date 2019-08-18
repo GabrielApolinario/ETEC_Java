@@ -7,11 +7,11 @@ public class PrincipalCirculo {
 		circulo.cadastraCirculo();
 		
 		
-		//		Circulo circulo = new Circulo();
-//		circulo.cadastraCirculo();
-//		circulo.calculaDiametro();
-//		circulo.calculaPerimetro();
-//		circulo.calculaArea();
+		//Circulo circulo = new Circulo();
+		//circulo.cadastraCirculo();
+		//circulo.calculaDiametro();
+		//circulo.calculaPerimetro();
+		//circulo.calculaArea();
 
 	}
 }
