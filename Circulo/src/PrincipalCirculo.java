@@ -4,14 +4,7 @@ public class PrincipalCirculo {
 
 		Circulo circulo = new Circulo();
 		circulo.menuCirculo();
-		circulo.cadastraCirculo();
-		
-		
-		//Circulo circulo = new Circulo();
-		//circulo.cadastraCirculo();
-		//circulo.calculaDiametro();
-		//circulo.calculaPerimetro();
-		//circulo.calculaArea();
+
 
 	}
 }
