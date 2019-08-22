@@ -4,12 +4,12 @@ public class Circulo {
 
 	// Atributos
 	private double raio;
-	private double diametro;
-	private double perimetro;
-	private double area;
+	//private double diametro;
+	//private double perimetro;
+	//private double area;
 
 	// Getters, Setters e construtor
-	public double getDiametro() {
+	/*public double getDiametro() {
 		return diametro;
 	}
 
@@ -31,7 +31,7 @@ public class Circulo {
 
 	public void setArea(double area) {
 		this.area = area;
-	}
+	}*/
 
 	public double getRaio() {
 		return raio;
@@ -51,7 +51,7 @@ public class Circulo {
 		System.out.println("4 - Exibir a area do circulo");
 		System.out.println("5 - Sair");
 		System.out.println("--------------------------------");
-		String option = JOptionPane.showInputDialog("Escolha uma das opções:");
+		String option = JOptionPane.showInputDialog("Escolha uma das opÃ§Ãµes:");
 		switch (option) {
 		case "1":
 			cadastraCirculo();
@@ -83,28 +83,28 @@ public class Circulo {
 
 	public void calculaDiametro() {
 		if (this.getRaio() > 0) {
-			System.out.println("O diametro do circulo é: " + (this.getRaio() * 2));
+			System.out.println("O diametro do circulo Ã©: " + (this.getRaio() * 2));
 		} else {
-			// System.out.println("É Necessario realizar o cadastro do circulo antes de
+			// System.out.println("Ã‰ Necessario realizar o cadastro do circulo antes de
 			// calcular seu diametro.");
 		}
 	}
 
 	public void calculaPerimetro() {
-		double pi = 3.1416;
+		double n = 3.1416;
 		if (this.getRaio() > 0) {
-			System.out.println("O perimetro do circulo é: " + ((pi * 2) * this.getRaio()));
+			System.out.println("O perimetro do circulo Ã©: " + ((n * 2) * this.getRaio()));
 		} else {
-			System.out.println("É Necessario realizar o cadastro do circulo antes de calcular seu perimetro.");
+			System.out.println("Ã‰ Necessario realizar o cadastro do circulo antes de calcular seu perimetro.");
 		}
 	}
 
 	public void calculaArea() {
-		double pi = 3.1416;
+		double n = 3.1416;
 		if (this.getRaio() > 0) {
-			System.out.println("A area do circulo é: " + pi * (this.getRaio() * this.getRaio()));
+			System.out.println("A area do circulo Ã©: " + n * (this.getRaio() * this.getRaio()));
 		} else {
-			System.out.println("É Necessario realizar o cadastro do circulo antes de calcular sua area.");
+			System.out.println("Ã‰ Necessario realizar o cadastro do circulo antes de calcular sua area.");
 		}
 	}
 
